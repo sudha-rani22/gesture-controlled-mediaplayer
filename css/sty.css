@@ -1,0 +1,30 @@
+html { width: 100%; height:100%; overflow: scroll; }
+body {
+  padding-left: 11em;		
+  font-family: Georgia, "Times New Roman",
+        Times, serif;
+  color: purple;
+  background-color: #d8da3d }
+  
+ .login h1 { color: #fff; text-shadow: 0 0 10px rgba(0,0,0,0.3); letter-spacing:1px; text-align:center; } 
+  
+input[type=text] { 
+	width: 100%; 
+	margin-bottom: 10px; 
+	border: none;
+	background-color: #3CBC8D;
+    color: white;
+	outline: none;
+	padding: 10px;
+	font-size: 13px;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+	border: 1px solid rgba(0,0,0,0.3);
+	border-radius: 4px;
+	box-shadow: inset 0 -5px 45px rgba(100,100,100,0.2), 0 1px 1px rgba(255,240,245,0.2);
+	-webkit-transition: box-shadow .5s ease;
+	-moz-transition: box-shadow .5s ease;
+	-o-transition: box-shadow .5s ease;
+	-ms-transition: box-shadow .5s ease;
+	transition: box-shadow .5s ease;
+}
+input:focus {box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgba(255,240,245,0.2); }  
